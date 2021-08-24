@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	people := []int{75}
+	people := []int{52, 23, 75, 21, 8, 68, 59, 19, 12}
 	limit := 120
 	fmt.Println("Minimum no:of boats required is: ", FindNoOfBoats(people, limit))
 }
